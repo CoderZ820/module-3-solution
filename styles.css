@@ -19,6 +19,27 @@ h1 {
     color: black;
     padding-top: 25px;
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #9400d3;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color:#ffd700;
+    text-align: center;
+    background-color: rgb(100, 41, 139);
+    font-size: 1.8em;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+#nav-list a:hover {
+    background-color: rgb(54, 24, 75);
+}
+
 /* End Navbar and Header */
 /* Begin Main Content */
 .page-header {
